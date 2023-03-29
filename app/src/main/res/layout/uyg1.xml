@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gorsel"
+        android:layout_width="211dp"
+        android:layout_height="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/Bilgi"
+        android:layout_width="64dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="Bilgi:"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="@+id/gorsel"
+        app:layout_constraintTop_toBottomOf="@+id/gorsel" />
+
+    <Button
+        android:id="@+id/btngeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="2dp"
+        android:text="Geri"
+        app:layout_constraintEnd_toEndOf="@+id/Bilgi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bilgi" />
+
+    <Button
+        android:id="@+id/btnileri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="İleri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toEndOf="@+id/btngeri"
+        app:layout_constraintTop_toTopOf="@+id/btngeri" />
+</androidx.constraintlayout.widget.ConstraintLayout>
