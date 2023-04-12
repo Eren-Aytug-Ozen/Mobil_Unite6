@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/uyg1.xml" value="0.33" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/uyg3.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/MyApplication3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.249" />
       </map>
     </option>
   </component>

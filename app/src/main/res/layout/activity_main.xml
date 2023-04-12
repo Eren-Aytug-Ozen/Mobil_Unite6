@@ -6,13 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/Uyg1goster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="Uyg1goster"
+        android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Uyg2goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:onClick="Uyg2goster"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/Uyg1goster"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg1goster" />
+
+    <Button
+        android:id="@+id/Uyg3goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:onClick="Uyg3goster"
+        android:text="Uyg3Activity"
+        app:layout_constraintStart_toStartOf="@+id/Uyg2goster"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg2goster" />
+
+    <Button
+        android:id="@+id/Uyg4goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="Uyg4goster"
+        app:layout_constraintStart_toStartOf="@+id/Uyg3goster"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg3goster" />
+
+    <Button
+        android:id="@+id/Uyg5goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="Uyg5goster"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/Uyg4goster"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg4goster" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
